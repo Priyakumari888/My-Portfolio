@@ -75,3 +75,44 @@ ul{
     padding:20px 40px;
     border-radius:12px;
 }
+nav{
+    background:#08142d;
+    padding:20px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00bfff;
+}
+nav{
+    background:#08142d;
+    padding:20px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
