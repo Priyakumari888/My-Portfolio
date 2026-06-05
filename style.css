@@ -188,3 +188,38 @@ footer{
     color:#38bdf8;
     margin-bottom:20px;
 }
+.hero-buttons {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 10px;
+  background: #0ea5e9;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-buttons a:hover {
+  background: #0284c7;
+  transform: scale(1.05);
+}
+
+.cert-card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 15px;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.08);
+  transition: 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 22px rgba(56, 189, 248, 0.2);
+}
