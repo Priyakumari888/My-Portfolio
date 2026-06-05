@@ -48,6 +48,25 @@ p{
     text-align:center;
 }
 
+.profile-img{
+animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
 h3{
     color:#22c55e;
     margin-top:40px;
@@ -374,4 +393,83 @@ h3{
 nav{
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(0,255,204,0.25);
+}
+.typing-text{
+  color:#00ffcc;
+  font-size:28px;
+  font-weight:600;
+  min-height:40px;
+}
+.stats{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin:50px 0;
+}
+
+.stat-box{
+background:#111827;
+padding:25px;
+width:180px;
+border-radius:15px;
+text-align:center;
+border:1px solid #00ffcc;
+transition:.4s;
+}
+
+.stat-box:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px #00ffcc;
+}
+
+.stat-box h2{
+color:#00ffcc;
+font-size:35px;
+}
+.typing::after{
+  content: "Aspiring AI Engineer";
+  animation: typing 10s infinite;
+  color: #00d9ff;
+  font-weight: bold;
+}
+
+@keyframes typing{
+  0% {content:"Aspiring AI Engineer";}
+  33% {content:"Software Developer";}
+  66% {content:"AI Enthusiast";}
+  100% {content:"Future Tech Professional";}
+}
+html{
+ scroll-behavior:smooth;
+}
+.stats{
+ display:flex;
+ flex-wrap:wrap;
+ gap:20px;
+ justify-content:center;
+ margin:40px 0;
+}
+
+.stat-card{
+ width:180px;
+ background:#172554;
+ padding:25px;
+ border-radius:15px;
+ text-align:center;
+ transition:0.4s;
+}
+
+.stat-card:hover{
+ transform:translateY(-10px);
+ box-shadow:0 0 30px #00d9ff;
+}
+
+.stat-card h2{
+ color:#00d9ff;
+ font-size:35px;
+}
+nav{
+ backdrop-filter: blur(15px);
+ background: rgba(0,0,0,0.25);
 }
